@@ -1,0 +1,9 @@
+SMILES_added,SMILES_got
+Cl,CCl
+Cc1ccc(Cl)cc1,CC1=CC=C(Cl)C=C1CCl
+Oc1cc(N)ccc1,CC1=CC=C(Cl)C=C1C(Cl)C1=C(O)C=CC=C1N
+C(C)(C)(C)(H),[H]C(C)(C)CC1=C(Cl)C=C(C(Cl)C2=C(O)C=CC=C2N)C(C)=C1
+N=N,[H]C(C)(C)CC1=C(Cl)C=C(C(Cl)C2=C(O)C=C(N=N)C=C2N)C(C)=C1
+C:C-N-C:C,[H]C(C)(C)CC1=C(Cl)C(CCNCC)=C(C(Cl)C2=C(O)C=C(N=N)C=C2N)C(C)=C1
+N:C-C:C,[H]C(C)(C)CC1=C(Cl)C(CC(NCC)C(C)CN)=C(C(Cl)C2=C(O)C=C(N=N)C=C2N)C(C)=C1
+N:C:N-C,[H]C(C)(C)CC1=C(Cl)C(CC(NCC)C(C)CN)=C(C(Cl)C2=C(O)C=C(N=N)C=C2N)C(C)=C1NCNC

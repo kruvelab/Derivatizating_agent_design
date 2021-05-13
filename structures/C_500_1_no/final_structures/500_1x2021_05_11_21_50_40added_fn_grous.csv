@@ -1,0 +1,8 @@
+SMILES_added,SMILES_got
+Cl-C:C-O,CC(O)CCl
+O=C-C-N-C,CNCC(=O)C(C)(O)CCl
+Nc1ccc(Cl)cc1,CNC(NC1=CC=C(Cl)C=C1)C(=O)C(C)(O)CCl
+C(-C)(=O),CNC(NC1=CC=C(Cl)C(CC=O)=C1)C(=O)C(C)(O)CCl
+C(:N)(:N),CN(C(N)N)C(NC1=CC=C(Cl)C(CC=O)=C1)C(=O)C(C)(O)CCl
+O-C-C-O,CN(C(N)N)C(NC1=C(OCCO)C=C(Cl)C(CC=O)=C1)C(=O)C(C)(O)CCl
+N-C-N-C-C,CCNC(N)C(N)(N)N(C)C(NC1=C(OCCO)C=C(Cl)C(CC=O)=C1)C(=O)C(C)(O)CCl

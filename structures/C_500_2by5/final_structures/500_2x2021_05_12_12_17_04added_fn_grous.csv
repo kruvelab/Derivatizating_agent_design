@@ -1,0 +1,10 @@
+SMILES_added,SMILES_got
+C(Cl)(:C),CCCCl
+C(H)(:C)(:C),[H]C(C)(C)C(C)CCl
+C(C)(C)(C)(H),[H]C(C)(C)CCC([H])(C)C(C)CCl
+C-C-N-C-C,[H]C(C)(C)CCC([H])(C)C(C)(CCl)C(C)NCC
+C-C-O-C:C,[H]C(C)(C)CCC([H])(C)C(C)(CCl)C(CC(C)OCC)NCC
+C,[H]C(C)(C)CCC([H])(C)C(C)(CCl)C(CC(C)OCCC)NCC
+N=C-C=C,[H]C(C)(C)CCC([H])(C)C(C)(CCl)C(CC(C)OC(CC)N=CC=C)NCC
+C-O-C:C-C,[H]C(C)(C)CCC([H])(CC(CC)OC)C(C)(CCl)C(CC(C)OC(CC)N=CC=C)NCC
+O=C-C-C=O,[H]C(C)(CCC([H])(CC(CC)OC)C(C)(CCl)C(CC(C)OC(CC)N=CC=C)NCC)CC(=O)CC=O

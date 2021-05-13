@@ -3,7 +3,7 @@ source("graph_to_SMILES.R")
 source("add_AH.R")
 
 
-list_of_fn_groups = read_delim("SMILES_of_fingerprints_corrected.csv",
+list_of_fn_groups = read_delim("SMILES_of_fingerprints_high_IE_corrected.csv",
                                delim = ",",
                                col_names = TRUE)
 
@@ -66,7 +66,12 @@ organize_df = function(df) {
   
   new_df = new_df %>%
     select(-starting_SMILES, -SMILES)
-  for (i in (j-1):1) {
+  if ((j < 2)) {
+    k = 1
+  } else {
+    k = j - 1
+  }
+  for (i in k:1) {
     new_starting = paste("starting_SMILES", i)
     new_add = paste("add_SMILES")
     new_yield = paste("starting_SMILES", i-1)

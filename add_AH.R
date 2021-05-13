@@ -19,11 +19,12 @@ Deriv_AH = function(DerivRegent_SMILES) {
   Deriv_Gly_SMILES = graph_to_SMILES(Deriv_Gly_SMILES)
   Deriv_Arg_SMILES = graph_to_SMILES(Deriv_Arg_SMILES)
   Deriv_Glu_SMILES = graph_to_SMILES(Deriv_Glu_SMILES)
-  Deriv_AH_sturctures = list(
-    "Deriv_Phe_SMILES" = Deriv_Phe_SMILES,
-    "Deriv_Gly_SMILES" = Deriv_Gly_SMILES,
-    "Deriv_Arg_SMILES" = Deriv_Arg_SMILES,
-    "Deriv_Glu_SMILES" = Deriv_Glu_SMILES
+  Deriv_AH_sturctures = tibble(
+    "starting_SMILES 0" = DerivRegent_SMILES,
+    "SMILES_with_Phe" = Deriv_Phe_SMILES,
+    "SMILES_with_Gly" = Deriv_Gly_SMILES,
+    "SMILES_with_Arg" = Deriv_Arg_SMILES,
+    "SMILES_with_Glu" = Deriv_Glu_SMILES
   )
   return(Deriv_AH_sturctures)
 }

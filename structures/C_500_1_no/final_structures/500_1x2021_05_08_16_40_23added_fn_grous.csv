@@ -1,0 +1,8 @@
+SMILES_added,SMILES_got
+C(C)(:C)(:C),CC(C)(C)C
+C(H)(:C)(:C),[H]C(C)CCC(C)(C)C
+N=C-C-C,[H]C(C)CCC(C)(C)CCCC=N
+C(C)(C)(C)(O),[H]C(C)CCC(C)(CCCC=N)CCC(C)(C)O
+Nc1cc(Cl)ccc1,[H]C(C)CCC(C)(CCCC=N)CCC(C)(O)CC1=C(N)C=CC=C1Cl
+Cc1ccc(N)cc1,[H]C(C)CCC(C)(CCCC=N)CCC(O)(CC1=C(N)C=CC(C)=C1)CC1=C(N)C=CC=C1Cl
+C=C-C-C,[H]C(C)CCC(C)(CCCC=N)CCC(O)(CC1=C(N)C=CC(C)=C1)CC1=C(N)C=CC(C(C)C=C)=C1Cl
